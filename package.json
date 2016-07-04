@@ -1,0 +1,25 @@
+{
+  "name": "flowershop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-sewell/flowershop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/o-sewell/flowershop/issues"
+  },
+  "homepage": "https://github.com/o-sewell/flowershop#readme"
+}
