@@ -21,11 +21,12 @@
 
 .intro {
   display: flex;
+  margin: auto;
   height: em(150px);
   width: 85%;
-  background: white;
-  opacity: .5;
-  margin: auto;
+  background: hsla(0,0%,100%,.3);
+  box-shadow: 3px 3px 6px -3px rgba(0,0,0,.5);
+
 
   &__title {
     font-family: 'Great Vibes', cursive;
