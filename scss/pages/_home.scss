@@ -9,6 +9,10 @@
   background: transparent;
 }
 
+body {
+  background: $color-primary;
+}
+
 
 .banner {
   background: url("../images/banner.jpg") 35% 50% no-repeat fixed;
@@ -27,11 +31,11 @@
   background: hsla(0,0%,100%,.3);
   box-shadow: 3px 3px 6px -3px rgba(0,0,0,.5);
 
-
   &__title {
     font-family: 'Great Vibes', cursive;
-    font-size: em(50px);
-    letter-spacing: em(3px);
+    font-size: em(60px);
+    letter-spacing: $letter-space;
     margin: auto;
+    color: $highlight;
   }
 }

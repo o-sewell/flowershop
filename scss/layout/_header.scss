@@ -1,0 +1,33 @@
+.navbar {
+  background: $color-secondary;
+}
+
+.nav {
+  padding: 10px 0;
+  text-align: center;
+
+  &__item {
+    display: inline-block;
+    margin: 0 em(18px);
+
+    a {
+      font-size: em(18px);
+      font-weight: 550;
+      color: $highlight;
+      text-decoration: none;
+      display: block;
+      padding: em(8px);
+      border-bottom: 1.5px solid transparent;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+   &--current a {
+     color: $color-primary;
+     border-color: #B4842C;
+   }
+
+  }
+}

@@ -11,20 +11,22 @@ $black    : #0b0b0b;
 $grey     : #797e83;
 
 
-$yellowgreen : #C6D96A;
-$sushi       : #A3B341;
+$puce     : #CB7791;    ;
+$wattle   : #D8D146;
+$sushi    : #8E9F3A;
 
 
 // Color Usage
-$color-primary   : $yellowgreen;
-$color-secondary : $sushi;
+$color-primary   : $sushi;
+$color-secondary : $wattle;
+$highlight       : $puce;
 $color-shadow    : rgba($black, .2);
 
 // Text
 
 $base__font-size : 16px;
 $base__line      : 24px;
-$letter-space    : 1px;
+$letter-space    : 2px;
 
 
 // Border radius
