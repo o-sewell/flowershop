@@ -17,3 +17,20 @@
   height: em(420px);
   display: flex;
 }
+
+
+.intro {
+  display: flex;
+  height: em(150px);
+  width: 85%;
+  background: white;
+  opacity: .5;
+  margin: auto;
+
+  &__title {
+    font-family: 'Great Vibes', cursive;
+    font-size: em(50px);
+    letter-spacing: em(3px);
+    margin: auto;
+  }
+}
