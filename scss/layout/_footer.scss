@@ -1,0 +1,12 @@
+footer {
+  height: em(30px);
+  background: $highlight;
+  text-align: center;
+  display: flex;
+}
+
+.copyright {
+  margin: auto;
+  color: #fff;
+  font-size: em(12px);
+}
