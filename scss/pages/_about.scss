@@ -1,3 +1,31 @@
+.about {
+  background: silver;
+  &__title {
+    font-size: em(40px);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    margin: 30px 0;
+  }
+
+  &__text {
+    font-size: em(30px);
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+    &--hi {
+      color: yellow;
+    }
+  }
+}
+
+
+
+/* about image animation */
+
 .hs-wrapper{
 	width: em(200px);
 	height: em(200px);
@@ -5,6 +33,7 @@
 	margin: em(30px) auto;
 	overflow: hidden;
   border-radius: 50%;
+  border: 3px solid #fff;
 }
 .hs-wrapper img{
 	top: 0px;
