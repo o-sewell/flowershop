@@ -16,3 +16,15 @@ html {
   display: table;
   clear: both;
 }
+
+
+//sticky footer
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
