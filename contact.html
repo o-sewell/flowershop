@@ -22,7 +22,30 @@
     </nav>
 </header>
 
+<main>
+  <h2 class="contact__title"> Contact us </h2>
 
+  <form class="form">
+        <label for="user">Name:</label>
+        <input type="text" name="user" id="user" placeholder="Name">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="example@web.com">
+
+        <label for="comment">Message:</label>
+        <textarea id="comment" name="comment"> Write your message.. </textarea>
+
+        <button class="button"> Send </button>
+</form>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+<defs>
+<filter id="filter">
+<feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
+<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
+</filter>
+</defs>
+</svg>
+</main>
 
 
 
